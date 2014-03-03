@@ -68,6 +68,7 @@ class AddressBook:
 
         window.mainloop()
 
+    # TODO replace save to dat file with update query to sqlite db file
     def saveAddress(self):
         outfile = open("address.dat", "wb")
         pickle.dump(self.addressList, outfile)
