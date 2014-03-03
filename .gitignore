@@ -33,3 +33,7 @@
 ehthumbs.db
 Thumbs.db
 *.1
+
+# App generated files #
+#######################
+.idea
