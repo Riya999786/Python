@@ -15,6 +15,8 @@
   As it's name states, this is a simple implementation of an address book.  In it's current state, the contents of the address book are written to a dat file.  In future versions, SQL queries will be used to read and write the data to a database file.  
   
   As for the UI, it currently consists of a simple layout, as this was my first attempt with TKinter.  The next iteration will contain a list box that would display all of your contacts within the list.
+  
+  ![Address Book](./Images/addressBook.png)
 
 * #### RPG
   This is a simple CLI based RPG game that displays a grid that acts as a battle area.  Kind of pokemon-esque.  Enemies are dispersed randomly throughout the grid at varying amounts based on difficulty.  The user needs to make it through 10 choices without losing all their health and dying.  On each turn, they choose a pair of coordinates and hope that they don't run into an enemy.  
