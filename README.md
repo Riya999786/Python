@@ -81,6 +81,6 @@ The files under this directory are works that are taught at [Learning Python The
 | 25 Even More Practice             | 51 Getting Input From A Browser        |
 | 52 The Start Of Your Web Game     |                                        |
 
-<a name="SQlite"/></a>
+<a name="SQLite"/></a>
 ## SQLite Projects
 These are small projects from a [Tutorial](http://zetcode.com/db/sqlitepythontutorial/) at [Zetcode](http://zetcode.com).  The implementations that I learned here will be applied to several other projects that would benefit from the ability to store and read files from a database file, instead of a simple dat file.
