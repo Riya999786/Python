@@ -6,10 +6,10 @@ from random import randint
 
 class Player(object):
 
-    def __init__(self, name):
+    def __init__(self, name, potions):
         self.name = name
         self.health = 100
-        self.potions = 3
+        self.potions = potions
 
     def navigate(self, x, y, Map, Monster):
         self.row = x

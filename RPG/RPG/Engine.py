@@ -33,7 +33,7 @@ class Engine(object):
                 if user_difficulty:
                     break
 
-            print "\nName: %s\nDifficulty: %s" % (name, difficulty)
+            print "\nName: %s\nDifficulty: %s\nPotions: %d" % (name, difficulty, user_difficulty)
             check = str(raw_input("Is this correct (yes/no)? "))
 
             if check in ("y", "Y", "yes", "Yes"):
@@ -44,7 +44,7 @@ class Engine(object):
             else:
                 print "\nLet's try and answer the question correctly, ok?"
 
-        player = Player(name)
+        player = Player(name, user_difficulty)
         game_map = Map(user_difficulty)
 
         print "You're presented with a grid of 10 rows and 10 columns."
