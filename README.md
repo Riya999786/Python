@@ -25,17 +25,17 @@
 
   Once thier health reach 50 points or below, they are given the option to use a potion that heals them at random amounts.  The amount of potions granted is based upon the difficulty chosen earlier.
   
-  The enemy names were based off characters from the film _The Cabin in the Woods_, which is almost entirely an _Evil Dead_ reference, among the fact that it references basically every horror film cliche to date.
+  The enemy names were based off characters from the film _The Cabin in the Woods_, which is almost entirely an _Evil Dead_ homage, among the fact that it also references basically every horror film cliche to date.
     * _The Werewolf_
-    * _Clowns_
+    * _The Clowns_
     * _The Merman_
     * _The Sugarplum Fairy_
-    * _Kevin_
-    * _An Angry Molesting Tree_
     * _The Scarecrow Folk_
     * _The Zombie Redneck Torture Family_
-    * _Deadites_
-    * _Sasquatch_
+    * _The Deadites_
+    * _The Sasquatch_
+    * _An Angry Molesting Tree_
+    * _Kevin_
 
 * #### passwordHash
   This isn't really a big project, but I was curious how you can hash passwords so I made this.  
