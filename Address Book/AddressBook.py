@@ -59,10 +59,10 @@ class AddressBook:
         frame6 = Frame(window)
         frame6.pack()
         Button(frame6, text="Add", command=self.processAdd).grid(row=1, column=1)
-        btFirst = Button(frame6, text="First", command=self.processFirst).grid(row=1, column=2)
-        btPrevious = Button(frame6, text="Previous", command=self.processPrevious).grid(row=1, column=3)
-        btNext = Button(frame6, text="Next", command=self.processNext).grid(row=1, column=4)
-        btLast = Button(frame6, text="Last", command=self.processLast).grid(row=1, column=5)
+        Button(frame6, text="First", command=self.processFirst).grid(row=1, column=2)
+        Button(frame6, text="Previous", command=self.processPrevious).grid(row=1, column=3)
+        Button(frame6, text="Next", command=self.processNext).grid(row=1, column=4)
+        Button(frame6, text="Last", command=self.processLast).grid(row=1, column=5)
 
         self.addressList = self.loadAddress()
         self.current = 0
